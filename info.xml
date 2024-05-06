@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jtlshopplugin>
+    <Name>Vorlage eines Plugins</Name>
+    <Description>Hier könnte Ihre Beschreibung stehen.</Description>
+    <Author>Dennis Heinrich</Author>
+    <URL>https://dennis-heinri.ch</URL>
+    <PluginID>plugin_test</PluginID>
+    <XMLVersion>100</XMLVersion>
+    <Icon></Icon>
+    <Version>1.0.0</Version>
+    <ShopVersion>5.0.0</ShopVersion>
+    <CreateDate>2023-02-01</CreateDate>
+    <Install>
+        <JS>
+            <file>
+                <name>main.js</name>
+                <priority>1</priority>
+                <position>head</position>
+            </file>
+        </JS>
+    </Install>
+</jtlshopplugin>
