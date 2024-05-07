@@ -89,6 +89,7 @@ class ShopTracking {
 
     public function createTracker(): self {
         $newTracker = new MatomoTracker($this->getSiteId(), $this->getInstanceUrl());
+        $newTracker->configCookiesDisabled = true;
         $newTracker->setTokenAuth($this->getAuthenticationToken());
         $this->matomoTracker = $newTracker;
         return $this;
