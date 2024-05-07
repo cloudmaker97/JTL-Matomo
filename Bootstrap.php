@@ -28,6 +28,9 @@ class Bootstrap extends Bootstrapper
     {
         parent::boot($dispatcher);
         try {
+            if(str_contains($_SERVER['REQUEST_URI'], '/dbeS/')) {
+                return;
+            }
             if($this->runComposerAutoload() && Shop::isFrontend()) {
                 $matomoSiteId = (int)$this->getPlugin()->getConfig()->getValue("site_id");
                 $matomoInstanceUrl = (string)$this->getPlugin()->getConfig()->getValue("instance_url");
