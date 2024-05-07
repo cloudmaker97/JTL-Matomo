@@ -34,6 +34,12 @@ jobs:
         working-directory: ./frontend/webpack
         run: rm -rf node_modules
 
+      - name: composer_install
+        uses: php-actions/composer@v6
+        with:
+          php_version: '8.0'
+          version: latest
+      
       - name: version
         id: get_version
         uses: michmich112/extract-version@main
