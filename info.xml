@@ -7,7 +7,7 @@
     <PluginID>dh_matomo_tracking</PluginID>
     <XMLVersion>100</XMLVersion>
     <Icon></Icon>
-    <Version>0.0.9</Version>
+    <Version>0.0.10</Version>
     <ShopVersion>5.0.0</ShopVersion>
     <CreateDate>2024-05-06</CreateDate>
     <Install>
