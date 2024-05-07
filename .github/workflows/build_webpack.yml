@@ -6,7 +6,7 @@ on:
     tags:
 
 env:
-  PLUGIN_NAME: plugin_test
+  PLUGIN_NAME: dh_matomo_tracking
 
 jobs:
   build:
