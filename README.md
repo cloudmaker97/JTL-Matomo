@@ -4,6 +4,10 @@
 
 > **Das Plugin ist nicht für den Produktiveinsatz freigegeben, da es noch nicht vollständig getestet wurde. Es wird empfohlen, das Plugin nur in einer Testumgebung zu verwenden.**
 
+### Was macht dieses Plugin?
+
+![2024-05-07 11_36_09-Fischer Modell - 2024-05-06 - Webanalytik-Berichte - Matomo](https://github.com/cloudmaker97/JTL-Matomo-Tracking/assets/4189795/1e7fc74e-8abb-4e3e-bcbb-101ec558ca2e)
+
 Dieses Plugin ermöglicht es, Matomo Tracking in JTL-Shop zu integrieren. Es nutzt die HTTP-API von Matomo, um die Daten an den Matomo-Server zu senden. Das Plugin ist so konzipiert, dass es einfach in JTL-Shop integriert werden kann. So werden Umsatz-Ereignisse, Produktansichten und Warenkorb-Ereignisse an Matomo gesendet.
 
 ## Voraussetzungen
