@@ -1,16 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <jtlshopplugin>
-    <Name>Vorlage eines Plugins</Name>
-    <Description>Hier könnte Ihre Beschreibung stehen.</Description>
+    <Name>Matomo Tracking</Name>
+    <Description>Tracking für Matomo ohne Cookies.</Description>
     <Author>Dennis Heinrich</Author>
     <URL>https://dennis-heinri.ch</URL>
-    <PluginID>plugin_test</PluginID>
+    <PluginID>dh_matomo_tracking</PluginID>
     <XMLVersion>100</XMLVersion>
     <Icon></Icon>
-    <Version>1.0.0</Version>
+    <Version>0.0.6</Version>
     <ShopVersion>5.0.0</ShopVersion>
-    <CreateDate>2023-02-01</CreateDate>
+    <CreateDate>2024-05-06</CreateDate>
     <Install>
+        <Adminmenu>
+            <Settingslink sort="2">
+                <Name>Einstellungen</Name>
+                <Setting type="text" initialValue="" sort="4" conf="Y">
+                    <Name>Matomo-URL</Name>
+                    <Description>Die URL zur Matomo Installation</Description>
+                    <ValueName>instance_url</ValueName>
+                </Setting>
+                <Setting type="number" initialValue="" sort="4" conf="Y">
+                    <Name>Seiten-ID</Name>
+                    <Description>Die ID der Webseite in Matomo</Description>
+                    <ValueName>site_id</ValueName>
+                </Setting>
+                <Setting type="text" initialValue="" sort="4" conf="Y">
+                    <Name>Authentifizierungs-Token</Name>
+                    <Description>Das Token um sich an der API anzumelden</Description>
+                    <ValueName>authentication_token</ValueName>
+                </Setting>
+            </Settingslink>
+        </Adminmenu>
+        <!--
         <JS>
             <file>
                 <name>main.js</name>
@@ -18,5 +39,6 @@
                 <position>head</position>
             </file>
         </JS>
+        -->
     </Install>
 </jtlshopplugin>

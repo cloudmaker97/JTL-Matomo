@@ -1,5 +1,5 @@
 {
-  "name": "plugin_test",
+  "name": "dh_matomo_tracking",
   "version": "1.0.0",
   "description": "Frontend-Bundle für das Plugin",
   "main": "index.js",
